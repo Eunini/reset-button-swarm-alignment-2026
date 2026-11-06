@@ -1,0 +1,27 @@
+RESET BUTTON — WALKTHROUGH SCRIPT
+Target duration: 3–5 minutes. This is a script, not an existing recording.
+Only record claims you have read and understood. Show the real source, data and report.
+
+SLIDE 1 — THE QUESTION (about 25 seconds)
+This project asks a simple question. If AI workers can report problems with each other, how do we stop false complaints without blocking real warnings? Reset Button studies reporting limits and reputation. It also asks what happens when a truthful child worker inherits a parent's bad reputation.
+
+SLIDE 2 — WHAT WAS TESTED (about 40 seconds)
+The new sprint extension uses 32 task seeds to construct 1,024 report streams. It varies how many genuine warnings arrive, whether an honest parent made one mistake, how many attacker roots exist and the report order. Every attacker group has the same total allowance of 24 reports. The same streams are replayed across seven controls, two checking budgets and two alias conditions. That gives 28,672 paired replays. These are scripted mechanism tests, not that many independent AI experiments.
+
+SLIDE 3 — THE MAIN RESULT (about 40 seconds)
+In the primary condition, there are eight genuine incidents and a budget of sixteen checks. With no initial honest mistake, root reputation finds all eight. With one initial mistake, it finds none. A root quota of four finds four and three respectively. A quota of eight finds eight and seven. No policy is shown to be best in every setting. The chart reports the same prespecified condition and 32 paired seeds for each policy.
+
+SLIDE 4 — WHAT THAT MEANS (about 30 seconds)
+A fixed quota limits malicious demand, but it also limits a busy honest reporter. Reputation avoids that fixed cap until a mistake reduces trust below the threshold for checking a single report. Later correct reports about different targets are then ignored. Without being checked, those reports cannot earn the feedback that would restore trust. This result depends on the particular threshold and feedback rule.
+
+SLIDE 5 — WHAT WORKED AND WHAT DID NOT (about 40 seconds)
+Separate controls tested two hosted models on paired safe and unsafe records with neutral worker names. All 128 judgments matched executor labels, but they share only sixteen seeds. The optional interactive reporter test did not work reliably. Fifty-nine of ninety-six outputs were incomplete. A higher-budget request timed out, and a streaming follow-up stopped after twenty-three requests, including one incomplete output. Those tests do not support a defence or model ranking. The main study remains a scripted, exact-checker evaluation.
+
+SLIDE 6 — WHAT OTHERS CAN USE (about 35 seconds)
+The contribution is a reproducible test of honest reporting load and inherited distrust. The code, frozen plans, raw evidence and failed attempts are retained. The public reputation rule and its code are credited, and all work before the event opening is disclosed as preparation. AI assistance was used for design, implementation, analysis and writing. Inioluwa Atanda is the sole human entrant; no independent human review is claimed. The main lesson is to measure useful warnings and recovery after mistakes, as well as false-report demand.
+
+OPTIONAL LIVE VIEW
+Open src/report_load.py and results/sprint-report-load-20261106/analysis.json.
+Show: python3 -m unittest discover -s tests -v
+This command performs implementation checks without paid model calls.
+Do not present the 41 software checks as 41 research experiments.

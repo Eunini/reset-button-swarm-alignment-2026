@@ -1,0 +1,10 @@
+{
+  "pid": 2359881,
+  "state": "completed",
+  "phase": "data_ready",
+  "started_utc": "2026-11-06T19:48:58.322192+00:00",
+  "submitted": false,
+  "finished_utc": "2026-11-06T20:47:45.821434+00:00",
+  "heartbeat_utc": "2026-11-06T20:47:45.823973+00:00",
+  "recorded_requests": 224
+}

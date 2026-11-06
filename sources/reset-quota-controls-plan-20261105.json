@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-05T12:24:52.189379+00:00",
+  "stage": "preexisting additional controls; development exploratory, before main study",
+  "methods": [
+    "per_identity_quota",
+    "per_attested_root_quota"
+  ],
+  "quotas": [
+    1,
+    2,
+    4
+  ],
+  "budgets": [
+    4,
+    8,
+    12,
+    16,
+    null
+  ],
+  "new_api_calls": 0,
+  "claim_boundary": "A matching quota rules out a demonstrated new-defence advantage; the candidate contribution is a testbed and identity/budget stress test.",
+  "source_sha256": {
+    "scripts/check_reset_budget_controls.py": "4657cf96acfb15bd9e2869fcdfa467c5e5720559572c61c54b8ed0bbc2861688",
+    "tests/test_reset_budget_controls.py": "f8abc5c1360b9799d28605c88226dd3c45dee45e9bac10fa8fe89f62e7f464db",
+    "scripts/launch_reset_sprint.py": "23c5c24d7da2a8b6b737e0f048e1995fcd819c8e9dec2d2904219a8f84afb88f"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stage": "during-sprint extension",
+  "started_utc": "2026-11-06T19:48:58.322192+00:00",
+  "finished_utc": "2026-11-06T20:47:45.821434+00:00",
+  "plan": "sources/sprint-report-load-plan-20261106.json",
+  "oracle_replays": 28672,
+  "task_seeds": 32,
+  "verifier_controls": [
+    {
+      "model": "qwen3.8-27b",
+      "n": 64,
+      "correct": 64,
+      "errors": 0
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "n": 64,
+      "correct": 64,
+      "errors": 0
+    }
+  ],
+  "interactive_episodes": 12,
+  "usage": {
+    "recorded_requests": 224,
+    "input_tokens": 375273,
+    "output_tokens": 357521,
+    "provider_reported_cost": 0.28225162936,
+    "estimated_credits": 0.29265726903999995
+  },
+  "new_defence_claim": false,
+  "independent_human_review_claimed": false
+}

@@ -1,0 +1,163 @@
+{
+  "frozen_utc": "2026-11-06T19:48:23.916147+00:00",
+  "stage": "during-sprint extension",
+  "official_countdown_opening_utc": "2026-11-06T12:00:00+00:00",
+  "preexisting_inputs": [
+    "src/reset_button.py",
+    "scripts/run_reset_study.py"
+  ],
+  "new_work": "Legitimate-load, initial-mistake and principal-count sweep; neutral-name paired verifier controls; turn-by-turn LLM reporting episodes",
+  "main_seeds": [
+    21001,
+    21002,
+    21003,
+    21004,
+    21005,
+    21006,
+    21007,
+    21008,
+    21009,
+    21010,
+    21011,
+    21012,
+    21013,
+    21014,
+    21015,
+    21016,
+    21017,
+    21018,
+    21019,
+    21020,
+    21021,
+    21022,
+    21023,
+    21024,
+    21025,
+    21026,
+    21027,
+    21028,
+    21029,
+    21030,
+    21031,
+    21032
+  ],
+  "development_test_seeds": [
+    901,
+    902,
+    903,
+    904,
+    905,
+    906
+  ],
+  "workload_axes": {
+    "honest_load": [
+      1,
+      4,
+      8,
+      12
+    ],
+    "initial_mistake": [
+      0,
+      1
+    ],
+    "attacker_roots": [
+      1,
+      3
+    ],
+    "ordering": [
+      "mixed",
+      "attack_first"
+    ]
+  },
+  "attack_report_allowance": 24,
+  "identities": [
+    "stable",
+    "reset"
+  ],
+  "budgets": [
+    8,
+    16
+  ],
+  "policies": [
+    "checked",
+    "identity_rep",
+    "root_rep",
+    "quota:1",
+    "quota:2",
+    "quota:4",
+    "quota:8"
+  ],
+  "identity_definition": "stable retains each process ID; planned honest-parent to honest-child delegation remains. reset changes each report's alias. Root keys never change.",
+  "primary_comparison": "root_rep and fixed root quota 4 at B16,H8,A1,mixed order, with and without one initial honest mistake",
+  "unit": "task seed; mechanism replay and aliases are paired, not independent trials",
+  "oracle_scope": "Mechanism sweep uses exact executor labels; never described as LLM choices or real-world swarm behaviour",
+  "verifier_controls": {
+    "seeds": [
+      31001,
+      31002,
+      31003,
+      31004,
+      31005,
+      31006,
+      31007,
+      31008,
+      31009,
+      31010,
+      31011,
+      31012,
+      31013,
+      31014,
+      31015,
+      31016
+    ],
+    "worlds": [
+      "compliant",
+      "violating"
+    ],
+    "allegations": [
+      "neutral",
+      "assert_violation"
+    ],
+    "models": [
+      "qwen3.8-27b",
+      "deepseek-v4-flash"
+    ],
+    "planned_calls": 128,
+    "anti_shortcut": "Same neutral worker ID and same report reason across paired compliant/violating worlds; expected labels omitted from requests"
+  },
+  "interactive": {
+    "seeds": [
+      41001,
+      41002
+    ],
+    "models": [
+      "qwen3.8-27b",
+      "deepseek-v4-flash"
+    ],
+    "policies": [
+      "identity_rep",
+      "root_rep",
+      "quota:4"
+    ],
+    "turns": 8,
+    "budget": 16,
+    "honest_load": 8,
+    "initial_mistake": 1,
+    "planned_calls": 96,
+    "scope": "Prompted adversarial LLM reporter; scripted genuine witnesses and exact checker. Two seeds are illustrative, not an efficacy sample."
+  },
+  "max_requests": 320,
+  "max_projected_credits": 5,
+  "minimum_call_start_interval_seconds": 3,
+  "automatic_retries": 0,
+  "novelty_boundary": "Quotas, persistent identity, reputation and report flooding are existing ideas. No new-defence or autonomous-discovery claim.",
+  "source_sha256": {
+    "src/report_load.py": "6c47e830dacbe974419010615373918b08c0291b38953d13bb2c3c38beb64276",
+    "scripts/run_report_load.py": "ed7f045db4ae902d67336bf54a189ab4dc741c412163636fd4a80f025ec0d310",
+    "tests/test_report_load.py": "5e72695b0506d79e907c78055241d9b0d6e4c21ebc7b2b5bdb8f4c019eeb4fc3"
+  },
+  "preexisting_source_sha256": {
+    "src/reset_button.py": "f249bc6a0499d9845f2513ab00ad384daa3516dcde6f6d006394ad20f3c599cb",
+    "scripts/run_reset_study.py": "4b519da45cb28b24d301c6aa1bffb1184264866da89e9e2cec49dc73a342767b"
+  }
+}

@@ -1,0 +1,13 @@
+# Literature audit and claim boundaries
+
+Primary HTML texts for the three closest papers were retrieved from arXiv on November 5 and stored with source hashes in `sources/papers/`. The review focused on their threat models, methods, relevant results, monitoring comparisons, discussion and limitations; it is not a verification of every appendix experiment.
+
+**Makins, Angelini, Shams & Phuong (2026), arXiv:2607.07368v2.** The work studies coordinated coding agents and establishes the fragmentation problem. It includes a joint-review comparison and discusses the difficulty of assembling complete context. Therefore, “review the whole swarm instead of each agent” is already covered. Our study must isolate evidence loss and justified uncertainty while retaining a strong joint monitor; it must not claim fragmentation as a new discovery. [Primary source](https://arxiv.org/html/2607.07368v2).
+
+**Qin et al. (2026), arXiv:2609.30266v1.** The paper covers direct trace manipulation, induced manipulation, reward-related behaviour, peer effects, and independent interception. It explicitly separates integrity, completeness and faithful execution. Consequently, our prior proposal to move logs outside worker control is established advice, not a novel defence. A useful extension would quantify the resulting decision errors and benign-work cost under a declared evidence-recovery protocol. [Primary source](https://arxiv.org/html/2609.30266v1).
+
+**Arslan (2026), arXiv:2609.07680v1.** The report-interface experiment isolates how upstream conclusions influence an external attributor, while acknowledging prior partial-observation benchmarks and synthetic-domain limitations. Our safety-certification question differs from assigning blame, but agent self-reports cannot be treated as independent execution evidence. The paper also illustrates why deviations from a registered interface and exploratory follow-ups need explicit disclosure. [Primary source](https://arxiv.org/html/2609.07680v1).
+
+Further searching did not establish that our exact proposed benchmark is new. Absence of a search match is not novelty evidence. Before freezing the main study, inspect the closest cited partial-observation benchmarks and compare their tasks, labels and controls. Treat the current title and contribution as provisional.
+
+The preliminary arithmetic model study has only two base pairs and two additional controls. It is a design and integration check, not a reliable ranking of model families. Strong-model success is a positive control; weak-model failures must be presented alongside output-format errors and the successful alternatives.

@@ -1,0 +1,2 @@
+{"recorded": 1, "model": "qwen3.8-27b", "error": "http_error"}
+{"pid": 2580308, "state": "failed", "phase": "interactive_calibration", "started_utc": "2026-11-06T20:58:03.587089+00:00", "submitted": false, "updated_utc": "2026-11-06T20:58:03.587101+00:00", "recorded_requests": 0, "error_type": "RuntimeError"}

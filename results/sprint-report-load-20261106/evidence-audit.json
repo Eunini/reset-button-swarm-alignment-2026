@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "frozen_sources_unchanged": true,
+    "executed_labels_and_fixed_attack_allowance": true,
+    "all_verifier_labels_recomputed_from_raw_evidence": true,
+    "all_28672_replays_reproduced": true
+  },
+  "passed": true,
+  "scope": "Independent label recomputation and full deterministic replay, not independent human review."
+}

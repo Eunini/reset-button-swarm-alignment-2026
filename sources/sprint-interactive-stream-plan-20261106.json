@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-11-06T21:03:03.189072+00:00",
+  "stage": "during-sprint calibration follow-up",
+  "reason": "Original interactive calibration had 59 truncated outputs; the non-streaming 16384-token follow-up stopped on its first request with HTTP 504 after 60 seconds. Preserve both runs and test the documented SSE transport before proceeding.",
+  "change": "Use stream=true and 16384 output tokens uniformly; same prompts, cases, checker, turns and grading. Stop immediately on incomplete or invalid actions rather than issuing a batch of failures.",
+  "source_protocol": "sources/sprint-report-load-plan-20261106.json",
+  "expected_requests": 96,
+  "max_requests": 96,
+  "max_projected_credits": 3,
+  "automatic_retries": 0,
+  "same_cases_reused": true,
+  "held_out_claim": false,
+  "transport_reference": "https://docs.adaptionlabs.ai/api/resources/responses/methods/create",
+  "interpretation": "Calibration on previously used cases; not a new held-out efficacy study. All failures retained and reported.",
+  "source_sha256": {
+    "scripts/run_interactive_stream_followup.py": "b792ebc413e485a9b1b569e435c4399f0740eb4b8757c50b5a2e4b7c4fcd9a21",
+    "scripts/adaption_stream.py": "bcfd21dbd9aa476c1e9d1a942f2a847aea54d0727088401723fc4d7e75567a7f",
+    "scripts/run_report_load.py": "ed7f045db4ae902d67336bf54a189ab4dc741c412163636fd4a80f025ec0d310",
+    "src/report_load.py": "6c47e830dacbe974419010615373918b08c0291b38953d13bb2c3c38beb64276",
+    "src/reset_button.py": "f249bc6a0499d9845f2513ab00ad384daa3516dcde6f6d006394ad20f3c599cb",
+    "scripts/run_reset_study.py": "4b519da45cb28b24d301c6aa1bffb1184264866da89e9e2cec49dc73a342767b"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pid": 2380461,
+  "state": "draft_ready",
+  "started_utc": "2026-11-06T19:55:33.270809+00:00",
+  "submitted": false,
+  "heartbeat_utc": "2026-11-06T20:47:57.215954+00:00",
+  "finished_utc": "2026-11-06T20:47:57.215923+00:00",
+  "pdf": "report/reset-button-sprint-report.pdf",
+  "visual_review_pending": true
+}

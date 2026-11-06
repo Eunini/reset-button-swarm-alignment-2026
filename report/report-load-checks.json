@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-11-06T22:44:52.320779+00:00",
+  "pdf": "report/reset-button-sprint-report.pdf",
+  "sha256": "06c02ed033eb3e16bf658785b50bc441d4f09892e1a076ea41795ba77a86a659",
+  "checks": {
+    "frozen_scientific_sources_unchanged": true,
+    "independent_evidence_audit_passes": true,
+    "main_pages_4_to_8": true,
+    "abstract_150_to_250_words": true,
+    "correct_author": true,
+    "required_appendix": true,
+    "ai_use_disclosed": true,
+    "prior_work_disclosed": true,
+    "failed_interactive_calibration_disclosed": true,
+    "timeout_and_partial_stream_disclosed": true,
+    "no_human_review_claim": true,
+    "no_empty_pages": true,
+    "no_template_placeholders": true,
+    "within_25MB": true,
+    "text_inside_page": true
+  },
+  "passed": true,
+  "main_pages": 4,
+  "total_pages": 7,
+  "abstract_words": 200,
+  "assistant_visual_review": "All seven rendered pages inspected; readable figures and tables, no clipping.",
+  "visual_review_pending": false,
+  "human_review_claimed": false,
+  "scope": "Assistant and programmatic review; submission status is recorded separately."
+}

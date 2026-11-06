@@ -1,0 +1,99 @@
+{
+  "created_utc": "2026-11-06T22:45:23.069148+00:00",
+  "scope": "Authorship, AI-assistance and review notes in project source and documentation. AI-topic words and raw model outputs are excluded. Prior versions remain unchanged.",
+  "matches": [
+    {
+      "file": "README.md",
+      "line": 63,
+      "text": "Inioluwa Atanda is the sole human author and entrant. AI assistance was used for study design, implementation, literature review, analysis and report drafting. Adaption-hosted models supplied the recorded verifier judgments and prompted reporter outputs. Programmatic checks and assistant review were performed; no independent human review is claimed. The entrant remains responsible for understanding and verifying the submission."
+    },
+    {
+      "file": "docs/history/before-publication-README.md",
+      "line": 29,
+      "text": "The saved-data analysis makes no API calls. All 41 implementation checks passed. The independent evidence audit recomputed labels, checked raw controls and reproduced all 28,672 replay rows. The coding assistant visually inspected all seven final PDF pages. No independent human review is claimed. Raw receipts, failures, usage and exact plans are included in the sprint research package. Credentials, private registration fields and browser state are excluded."
+    },
+    {
+      "file": "docs/history/before-sprint-final-reset-runbook.md",
+      "line": 64,
+      "text": "The current draft uses an affiliation placeholder because none was supplied. The entrant needs to confirm that line before submission. No independent human review or organizer approval has been claimed."
+    },
+    {
+      "file": "docs/operations.md",
+      "line": 5,
+      "text": "Solo human entrant: Inioluwa Atanda. Registration email is in the ignored `.private/participant.json`. Affiliation and optional Discord username remain unconfirmed. Do not invent an institution or list AI assistants as human teammates."
+    },
+    {
+      "file": "docs/operations.md",
+      "line": 41,
+      "text": "5. Write the report in the official template, including prior work, AI assistance, limitations and dual use. Keep claims tied to output files."
+    },
+    {
+      "file": "docs/reset-runbook.md",
+      "line": 5,
+      "text": "Read the repository README for findings and limitations. Read `report/report-load-checks.json` for the exact checked PDF hash and `results/sprint-report-load-20261106/evidence-audit.json` for the full replay audit. The saved-data analysis and report generators make no model calls. All 41 implementation checks pass. The assistant inspected all seven rendered pages; no independent human review is claimed."
+    },
+    {
+      "file": "docs/work-log.md",
+      "line": 62,
+      "text": "- Generated a four-main-page development report using the official template, followed by references and required appendices. It is explicitly pre-sprint and not a submission. Author affiliation remains unsupplied; no independent human review is claimed."
+    },
+    {
+      "file": "docs/work-log.md",
+      "line": 92,
+      "text": "- Reviewed and corrected the report: quantitative 201-word abstract, primary paired effect and interval, actual campaign cohort sizes, correct timing/prior-work split, cost limitations, AI disclosure, required ethical appendix, and accurate source credit. It has four main pages plus three reference/appendix pages. Assistant inspected all seven rendered pages; machine PDF checks pass. No independent human review or submission is claimed."
+    },
+    {
+      "file": "docs/work-log.md",
+      "line": 132,
+      "text": "- All 41 implementation checks pass. Frozen scientific sources match the recorded plan; independent executor/control/full-replay audit passes. Final PDF structural checks pass. No independent human review is claimed."
+    },
+    {
+      "file": "scripts/build_preparation_brief.py",
+      "line": 103,
+      "text": "para(\"AI assistance: The assistant prepared the code, literature triage, exploratory analysis and this brief. No independent human review is claimed. The human entrant must review the eventual submission and remains responsible for its accuracy.\", \"BriefNote\")"
+    },
+    {
+      "file": "scripts/build_report_load_report.py",
+      "line": 151,
+      "text": "para('The coding assistant proposed the extension, wrote its implementation, inspected prior research, analyzed saved data and drafted this report. Adaption-hosted models judge synthetic records and control the explicitly prompted adversarial reporter. Programmatic tests check labels, budgets and paired conditions. No independent human review is claimed. Inioluwa Atanda is the solo human entrant and remains responsible for understanding and verifying the report and any submission.')"
+    },
+    {
+      "file": "scripts/build_reset_report.py",
+      "line": 349,
+      "text": "\"12 hours to a date at UTC midnight, which the earlier assistant review missed. Earlier \""
+    },
+    {
+      "file": "scripts/build_reset_report.py",
+      "line": 406,
+      "text": "para(\"The coding assistant proposed and implemented the study, inspected prior work, generated analysis \""
+    },
+    {
+      "file": "scripts/build_reset_report.py",
+      "line": 434,
+      "text": "\"they do not establish real-world transfer or research novelty. No independent human review \""
+    },
+    {
+      "file": "scripts/build_submission_extras.py",
+      "line": 121,
+      "text": "text('AI assistance was used for design, code, analysis and writing. Inioluwa Atanda is the sole human entrant. No independent human review is claimed.', 48, 99, size=12, color=MUTED)"
+    },
+    {
+      "file": "scripts/build_submission_extras.py",
+      "line": 158,
+      "text": "The contribution is a reproducible test of honest reporting load and inherited distrust. The code, frozen plans, raw evidence and failed attempts are retained. The public reputation rule and its code are credited, and all work before the event opening is disclosed as preparation. AI assistance was used for design, implementation, analysis and writing. Inioluwa Atanda is the sole human entrant; no independent human review is claimed. The main lesson is to measure useful warnings and recovery after mistakes, as well as false-report demand."
+    },
+    {
+      "file": "scripts/check_report_load_report.py",
+      "line": 31,
+      "text": "'no_human_review_claim': 'No independent human review is claimed' in text,"
+    },
+    {
+      "file": "scripts/check_report_load_report.py",
+      "line": 42,
+      "text": "'assistant_visual_review': 'All seven rendered pages inspected; readable figures and tables, no clipping.',"
+    }
+  ],
+  "sole_human_author": "Inioluwa Atanda",
+  "ai_coauthor_tags_added": false,
+  "required_provenance_and_third_party_credits_retained": true
+}

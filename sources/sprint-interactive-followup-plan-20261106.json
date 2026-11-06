@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-11-06T20:57:53.310595+00:00",
+  "stage": "during-sprint calibration follow-up",
+  "reason": "The 4096-token interactive reporter protocol produced 59 incomplete outputs out of 96. All 128 verifier controls completed correctly. Preserve original data; raise only the interactive output allowance.",
+  "change": "max_output_tokens 4096 to 16384 for both models and all three interactive policies; prompts, seeds, checker, decisions, turns, temperature and grading unchanged",
+  "source_protocol": "sources/sprint-report-load-plan-20261106.json",
+  "expected_requests": 96,
+  "max_requests": 96,
+  "max_projected_credits": 3,
+  "automatic_retries": 0,
+  "same_cases_reused": true,
+  "held_out_claim": false,
+  "interpretation": "Calibration on previously used cases; not a new held-out efficacy study. All failures retained and reported.",
+  "source_sha256": {
+    "scripts/run_interactive_followup.py": "3d8137c9ec78061348be4bca8dce7d067dcdd70e2e2e5511ebde07b2bd5482bd",
+    "scripts/run_report_load.py": "ed7f045db4ae902d67336bf54a189ab4dc741c412163636fd4a80f025ec0d310",
+    "src/report_load.py": "6c47e830dacbe974419010615373918b08c0291b38953d13bb2c3c38beb64276",
+    "src/reset_button.py": "f249bc6a0499d9845f2513ab00ad384daa3516dcde6f6d006394ad20f3c599cb",
+    "scripts/run_reset_study.py": "4b519da45cb28b24d301c6aa1bffb1184264866da89e9e2cec49dc73a342767b"
+  }
+}

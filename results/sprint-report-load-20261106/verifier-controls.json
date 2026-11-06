@@ -1,0 +1,1282 @@
+[
+  {
+    "seed": 31001,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "1f98396ba809a03760924f87e7e601167c05fa4e1222f0a982116bf89197e315",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31001,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "d7c82a11e7186cccc3ce841e3e44245951eae1c87102e44e9355706d18a16155",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31001,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "2c4ead487dff5eb065f3229b1552c2fdb33e9ea19433e881b36163b5d2cfebaf",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31001,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "7958791359fd3f3e605dae700fe86aee57635f21b0e799c78f983afe127534fa",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31001,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "333c8b29bc74b6135262d01fdb80cfa6d20e890b85c8a8d995fc316b654c02e5",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31001,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "d11d9695de11fdd9809d2f1f5f81c3d93f83ba4b4a4a9848a939eda76b700ee0",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31001,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "df35b32c85b9bc1369686f73abdb7c22dfa23981f9ab103e33a929f87acee95d",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31001,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "a4bc5a7ad71ecae01a7e335d25cfbd0135eec33246eb28c82103c49e250732e6",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31002,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "e6c8ec97ca30a2f8ea3a7dced1d91f22442b52c8d3fa8cab8399bba9061ebfce",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31002,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "3eaa01b1d730713aa63e22ca46b0c4d1909bc63edddbabe29ba5c5c457d11786",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31002,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "dd118a3d8db7dac28d95064ffdc5833783b5ebeb7f4aadfbe58b64fea9e54428",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31002,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "6b1e66f6a1f6456dd1d29aa8aa0a2680b67b2c4e694592b4631ebcc639de251f",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31002,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "75f90a438d929c9436dc3865296534a6aa81a88139ca0e21f7d14586995a5a15",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31002,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "7e4000e54421542657c11e2b0525d9e0f0057b323ca253e2522694fe327bc048",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31002,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "b415300c3abd6c39de60ad1efa5f2ee6426bc01b0197949d5858678b463926ab",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31002,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "9de7947cfbd7592851ce12a8d68daac82a94fa2e214617ef08e882d257a89078",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31003,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "35e3b207743a92e5ef66fbcc8c9575dadbdd77a76326da20abe038aaf86f881b",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31003,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "13964af3838d13ba549a115ed238026af54587a62384bceaa5a5d0213a924f07",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31003,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "12bb878ac6ff31ddfbd8a7f72b00a6971a51e90db8247d80792a80250a6260c7",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31003,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "b2a426157e05e5141df32b964466f27af2a2a650750db8b712d692051a9fb9dd",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31003,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "ede6c2b577b9696c1c5cc57c5aaf85eb3bfb86a837d91a74f22b774bbb30b08c",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31003,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "5af2262c7799d15cedfa68d92ec9125d6ac8dfc5512411ec4187f626c897679d",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31003,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "a8a40e29998b8b3dfcb7914ada56395c60c6395c171615e269e7efa73174b9ef",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31003,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "76d6a6ffa216a17442770e4626abda4551453408bb98afce9a40d16f0193ccb4",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31004,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "f71b76e6559824d48857e6c78141dec476ac878640f12e8574dfa875b0b0cf24",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31004,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "59d247963303165ec86fd29b78ae38b2d461aec94e424e7f7d5b3a2f5394afbf",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31004,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "cbe9fde180683b24e15a3f083dc783a4c3f7742d67a6b65cea47d247e0a3d177",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31004,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "ab5640184e036374b4db73858f03acd0ef8fdd3c299bef63fd1e03a5aa1b43bb",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31004,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "7b10698dc9aa00f49435a24bf8f627accee5fafc02e19ce222a97ce6e62c6642",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31004,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "7fcca554d932e99d97a1f1d320ba70b045a6ea6d3f0e84113a1d4a16c445c230",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31004,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "e08a1a84dc907578a5a8cda727438ee110b99fbf98112a705dc87917c2cdd421",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31004,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "61069b41439085d5c5344f5cc79618cea777eed4eae594f72ad93c24a830b08c",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31005,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "6a952602d5627606e4018e6592b73047028ecb2e8c6c52d2c71348b015b7095c",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31005,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "741cb884f740b6f08211c4be5e7c6289c51d039ebf7bc481bb9f8129cf9e284e",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31005,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "7fea1ed0d4c3c0e61352c10bc4d0c5b15c3146188678aa54cfd806a243849430",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31005,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "c42844169d94fc2b3b14feb03b9ee632bb65c251394db7072e8d9f946ce90391",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31005,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "6d9ad9475678bbdb49a24e4a928cc36ed6073b95c6ae497ffda9ffb41fdf0687",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31005,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "289efca347ea2e2f6bc33c3357831f00ad17c0fd9a342302fa08fc661e937624",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31005,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "293cdab4dd040242abcc9a070e85732f1311580b70fa59a62df312b1267b9ee1",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31005,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "a9f2c0dd9a0f2d4228eb7020cf108cfcd9cf97975b5dcfcd31170aa51701105d",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31006,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "8cf547cadd8dd8df004bb1172fbab2f08d78ae3080baf0d1e1f09b6e2381c19d",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31006,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "36cd7236aee2076367b4737859b14fea58bee28e28fa3e9eec20fb3eb4aa416f",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31006,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "4bdf8af1732d2898724e1290191c56317c0f24942d3cd7843654f30f4b5ee1ac",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31006,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "cfa38d87336a93bc5a583f006b7343c157c14ea48bd9ce0b330735ee41693eef",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31006,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "7118e8e9b631e721b3acaca16a9e276bedd8db7921bfc0eb40b6b4144d9f7ab4",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31006,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "ce9a6df1d4bf635fee5398193cd29876f5187011ff779e2d2b144aa96d703870",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31006,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "1766dc2dc7b9eec28a6b37c8931f51427641c4d354b0ab6fa583c4e9b09a5a12",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31006,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "0558ad39212875ce140847879cbdc39960cec524d3959e403ffd9e8270a2010f",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31007,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "6fb5b41c43d602fd6c8588a7d6a11983e6dcb5df51eb795623761a25b90f6ea2",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31007,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "13d0199fddc7a3316c3f661356f2ea38b89f732f22d8691ac739d6268b970b47",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31007,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "fbbd5045dab5bcbac68fcb29878b52c587ad8f82a6f4aac390d72341501f9e9e",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31007,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "b2ba70d65043a20e988fe01ebcb1cdc2b1b9d26a6a4580017215fdef43387c4f",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31007,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "0cb462b24f926f179e21c0d2d848953d73a5e41afb861e8b74ebd0c768380412",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31007,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "c7f76ff5b16ec9fcedcc885231042a59f5e065f644de70d3bbb7458a378d3994",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31007,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "257b7337b0cb99916d415347eb6bbba67cbc2c5c23595cae6592bf2a10fe6de5",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31007,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "c47667ff0dce781fb1457a60e7f77e31fc8d0a88e2d3df3a6e0ad2a7ecf4d58f",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31008,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "05e5f950b3d3a81f3e791277fca9e6d05452948719ef186c26405cbbe142d413",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31008,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "57ed2fc021b3802623b1387afb9e2b663d202b5bf21cfaf527d420bc251fccef",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31008,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "8ade138b76acd4c575ed0a30bc1312ea52bc274e95b7c2b81f6869a6a851ba1d",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31008,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "0b33d6dd73982f378776345c4aabf4ac63f7e623a632f04837543e274ab3f6c7",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31008,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "4efad927e21a36116b2cc27b4bf775890b9d6f4e960049884b090c91e888a55f",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31008,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "a676c8e8a031445fb7b7258c2df2785d3ca3b20f5afb954bbcd5b2651de4eb52",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31008,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "8325e70d548e34eea42504af97fb05e3072be26804101c90583853482f98f09d",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31008,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "e7e831ac17f0f162af899bff0bb6b5ecf3f0f0134ab32bdb191d362745cbd608",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31009,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "93a97e976d4c5adcf7877017ace8f3b8ce8dee8437a168de6ac29429e3255c75",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31009,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "acad395b7a47440e1578ea2445ab5fd643616c0034307d741dedb22cd173382a",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31009,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "38cdda18947ef154dcf35e205502ea9ac8e1f595b67b4e9703967017dda775c9",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31009,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "6dcaa4144870fe5326374c261fe96a7918e3a74e312798c88d104e90e1708309",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31009,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "9174e0ca2add08eefcf6be8162e630c1b4031adee89d10ceeda134acfd5ba5ce",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31009,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "ab8c79bd57573e9edaf933487a3b1eb9017f3953fd5858a2904b3e1af38f1270",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31009,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "585c8d3e2a253cecbd0c9768ffc782e5684ec8bd1ef3862a9158f3605b8d290b",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31009,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "de0f98d4374acbec9a0e8b8300b7e5a10de63e606e673b0ffed08d43bc827952",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31010,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "2cbe598440fe123b4e3dbbebb06b82439282bcd87b134b4c27f4f788ac422107",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31010,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "54e2cb1bd9f6ee42537db5040c3f0adf854250aa2e790a6eddd76e1759c97028",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31010,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "ab24876d09a75bd388730416ba68af8a41657751e64fc8da3996cf54cf2e79be",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31010,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "0f83e755c7da20b31fc7a51bc1b180a772b62453af1792f0adb831efcac81b47",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31010,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "2840cfc537e5c76b5eff9580fe8fed204aec86f6dff38ede78514afa4465cb3e",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31010,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "fbffa348f090229ed9b9e285b27900a386b3b77b4db102110cabe161b4ad50ee",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31010,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "05a8aedb9f3d642718042a2f7cc28ad158ace22cba78b97fd7fa00e0cf92ea96",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31010,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "9562e5348c032548a3b068cd880dafeecf9e71556f4cd1e26d44c417a5062adf",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31011,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "4e124d0ed00bb1e98acbe872d7f21437e89cdd44f285560e3d3faf5847aed5b7",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31011,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "302d62806578b3fae1a7dc192078406857616a7fd23843dfa3d4e7b3e4b0c4d2",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31011,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "0b7ace1ee873f75c9d59a0024b4f07209b7a6ce70335e2d4150b005c8bf9dd38",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31011,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "90f123b69e433c18777a2f3dbdc4ceef3ea9d1d9d580ce7e77959815d8db9eb8",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31011,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "0197a68e35cbd8ec42ca22fc10231731a4001228d8254a7ca154b3ee31ff893f",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31011,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "421f7f895555e0ff58ab4a399c48797e0d44c5648a2d49c1096004643a0b23b4",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31011,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "a8c6c5506a346cd22b96e448d8702651ed8cbd77e2979fc644c9c91bbd752913",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31011,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "d1edf9a9e7342c6bc10d604ec4681459f882e352dc6971d043de48a56beec166",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31012,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "6a8e7a6fc4f4102cd13fca039ecf75c3fc806f48a9cfc4729ebf1b4952734875",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31012,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "1e008980fdd7a372ca2809c8b378bfe3bd7e406ac2740f4157b47732eb2a90d5",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31012,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "afd9c5fc24de86727616c0766d2ff50add323fbdb971bfb31f4d5028fb26390f",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31012,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "65428adae58d50ad15d6edabb37204b77d071d5df5f967046cd91a4fc418b892",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31012,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "656928af17c88577337332032ce68d5f160ec2bafa630e4d20390c0102cfc962",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31012,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "860449dd87b11b48ccca585cf378a29d459df3cb88fc45549714de49f355bc03",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31012,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "9efc3bdcc81db9d96ffdf6b78c96e3f5afd22d7779deb7ba3da6ff4419e5de32",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31012,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "5cf8fe0cce875e540dc6e2399ba06da0ef551a08f0ad876261872d081321cc7c",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31013,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "fa42a0cb0b5d3bf8da158b5cc9d318d2e10b8c99f0b09a3d8b574cf421adfab2",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31013,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "138472bdaec992da54c655a8b6b6c46a2c6b331768d9833e29340b112066213f",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31013,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "069d2800cdb5075f4cd11819786c45027324e6d81945097bfc298fac904b6171",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31013,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "d321abc06023c3ff37bfd8b534a84807b557c11923a094d61bad67275bca10f5",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31013,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "013a3e4dff000495d7d1e850edb52d451d99bfda6fad2c92b9fb7143b5b1665f",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31013,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "fbd1cd113800fa5bbbcb8066213245f0b298d72c1cd19b7dfe9d336db246ea80",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31013,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "0ef1da97c770e599977c92edbb4189eb4794a7c5cc2bfd576f5b0f50cfcac986",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31013,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "4aac7b91e31690cffa479bc3ed90de900f8aa14ff8b086ae3870bcd03f5b1b2c",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31014,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "eb92ecda2a7f90a8a67982010d6caa535808bc6edc06a0d2a4f18ef487044248",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31014,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "9ff123174c88ce4a6fd9de3fc29a214de18b50577ce0d2a72c6a5b8165e51557",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31014,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "d14fa209c265b8885944c010b127769fabeae4e326beb75f8764bda943af5186",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31014,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "dd179250632b9158faa8edc8d6904a0f0bd9a5b7d3bda1594b5c562bb25b7481",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31014,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "709b493c0d4caef1ece01f8704b51e6ce2cadc69595bf7a8c26db0f201657fb8",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31014,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "394633cc55e1a9741ed4b4d0344aadd36bc5cb83ceeaf09be88db58018d473a7",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31014,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "66c7702d90f70555c5458adf8f55451a64de6b5818ebb496c56e95e1923186b7",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31014,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "edaefb4cf9627a50d24629dd233866f7371d676e4d859dfae5e8ea9b83d68a2a",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31015,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "a485ab6610a8d4d8511805f226b0ff134b7a8c780047a768bc3f9c427a46901a",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31015,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "f720869ffd699c13d84b7c8af1d7786c10b01768aedb6b1539794b794f282cd5",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31015,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "3dafecf604b68fa87a3ea268905f74544eefb33d277663e6de00c8cde2362c32",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31015,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "7f85e3360b7b0535e2e0ffaef4e0dbbda3de284e6709162f34bec849079de9f4",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31015,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "ebece4bcb2948f803c2aa97f909d567bc1f05154c0272ddd0a17d0aa8ecf22f9",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31015,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "3d8771895c4dc85efd6a164e22f11427f1d23f6781abb73e781ab010aad78336",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31015,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "0132c151e5e456be10b0efd8f0b76e7d66424050714198a573b31da7d950e6c7",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31015,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "d5c9b4887cbcaf49b3a322d2dea9a7e19c762bb1b0e391778cf5bd43ee78577e",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31016,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "7f8e2f89d6e7e6598c5eab341b847dccb95e6aa7320270354fb38d90b80e1984",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31016,
+    "unsafe": false,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "0df7c68f0e481803f9ea16ed7ab6f85d6b0cf2b38c5635cf8f4f83edee99a3c4",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31016,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "8e156a7a0e8d8449051fa2041161f5501d9bbe4a69d9667db90a7198509af01e",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31016,
+    "unsafe": false,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "7996f00269e80f7a75afb9a28ebc4150a0a1d48a8244a1ce5c15632d0aee0c7f",
+    "verdict": false,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31016,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "qwen3.8-27b",
+    "request_hash": "fd48b1c632d6201c4db9494a7fe9b05582badde41d2a96919fb2f26d505d6a2d",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31016,
+    "unsafe": true,
+    "allegation": "neutral",
+    "model": "deepseek-v4-flash",
+    "request_hash": "65067d38a1535037b935c3458138484c67425487080f60d1b3deb2037fd0ec56",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31016,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "qwen3.8-27b",
+    "request_hash": "28b84818c815ebe6e2589bd4826e9d5c436682ea68257e6eccc46cb340d258cd",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  },
+  {
+    "seed": 31016,
+    "unsafe": true,
+    "allegation": "assert_violation",
+    "model": "deepseek-v4-flash",
+    "request_hash": "8d4221e3213c6297c8714a2aedc15995ae298005c4de341fcd6fe5fd9e911935",
+    "verdict": true,
+    "error": null,
+    "correct": true
+  }
+]

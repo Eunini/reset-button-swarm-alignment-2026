@@ -1,0 +1,10 @@
+{
+  "pid": 2580308,
+  "state": "failed",
+  "phase": "interactive_calibration",
+  "started_utc": "2026-11-06T20:58:03.587089+00:00",
+  "submitted": false,
+  "updated_utc": "2026-11-06T20:59:04.055888+00:00",
+  "recorded_requests": 1,
+  "error_type": "RuntimeError"
+}

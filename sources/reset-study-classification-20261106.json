@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-11-06T05:53:26.341229+00:00",
+  "official_page": "https://apartresearch.com/sprints/swarm-alignment-2026",
+  "observed_countdown_opening_utc": "2026-11-06T12:00:00+00:00",
+  "evidence": "Page startDate is 2026-11-06T00:00:00.000Z. The public eventStartMs function adds 43,200,000 ms for a date at UTC midnight. The countdown and eventStatus use that result. This matches the user screenshot countdown of roughly six hours at 05:50 UTC.",
+  "all_completed_study_before_opening": true,
+  "recorded_requests": 4258,
+  "classification": "preexisting validation and preparation, not new sprint work",
+  "corrects": "Earlier midnight-in-workspace and midnight-UTC interpretations were assistant conventions, not the page countdown opening. The earlier claimed 3736-request weekend contribution is withdrawn.",
+  "action": "Disclose all current code, reports and results as preexisting. Build and evaluate a substantive extension after the countdown opening; do not rebrand an identical rerun as a new finding.",
+  "sources_sha256": {
+    "sources/event-page-timing-20261106.html": "f1b6fccf69c05bb53b99f34dfabd0bd82996e08670d348dc75e6c7872cf80a72",
+    "sources/event-timing-js/2udi7eet9zeol.js": "a2d763b176523f742645fa97e8b84114e9caecaf8ce0894036e27882b6b0d4d3",
+    "sources/event-timing-js/1pm8sig4mboae.js": "01fd3bc2acd3cddd18a8a40f6d134e920ba203a2d012bdfe85369fffcdec6654"
+  },
+  "submitted": false
+}

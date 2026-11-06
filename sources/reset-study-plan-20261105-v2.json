@@ -1,0 +1,122 @@
+{
+  "frozen_utc": "2026-11-05T12:13:06.428748+00:00",
+  "stage": "preexisting design",
+  "version": 2,
+  "previous_plan": "sources/reset-study-plan-20261105.json",
+  "development_amendment": "v1 had 2 truncated campaigns and 26 HTTP 429 failures. Use 8192 campaign tokens; serialize with 3s minimum call interval; stop on 429/5xx. Reuse exact successful requests; failed v1 requests may be sent once in this follow-up. Preserve all originals.",
+  "main_not_before_utc": "2026-11-06T21:30:00+00:00",
+  "boundary_is_conservative_convention": true,
+  "development_seeds": [
+    31,
+    37
+  ],
+  "heldout_seeds": [
+    12001,
+    12002,
+    12003,
+    12004,
+    12005,
+    12006,
+    12007,
+    12008,
+    12009,
+    12010,
+    12011,
+    12012,
+    12013,
+    12014,
+    12015,
+    12016,
+    12017,
+    12018,
+    12019,
+    12020,
+    12021,
+    12022,
+    12023,
+    12024,
+    12025,
+    12026,
+    12027,
+    12028,
+    12029,
+    12030,
+    12031,
+    12032
+  ],
+  "models": [
+    "qwen3.8-27b",
+    "deepseek-v4-flash"
+  ],
+  "reports_per_adversary": 24,
+  "genuine_reports_per_scenario": 3,
+  "budgets": [
+    4,
+    8,
+    12,
+    16,
+    null
+  ],
+  "methods": [
+    "checked",
+    "escalating",
+    "lineage"
+  ],
+  "identity_conditions": [
+    "persistent",
+    "restart"
+  ],
+  "primary_metric": "genuine incidents detected at budget 8, paired by task seed",
+  "primary_comparison": "escalating/restart versus escalating/persistent; lineage/restart repair",
+  "secondary_metrics": [
+    "verification calls",
+    "false report verifications",
+    "false sanctions",
+    "all budget curves",
+    "invalid outputs",
+    "honest-reporter control"
+  ],
+  "experimental_unit": "task seed; method/budget replays and report views are not independent trials",
+  "verifier_receipts": "one recorded model verdict reused for identical request bodies across replay conditions",
+  "oracle_diagnostic": "perfect verifier and unlimited checks; not empirical LLM behaviour",
+  "attack": "LLM-authored batch of reports, externally assigned restarts; no autonomous discovery claim",
+  "runtime": "scripted workers in a typed local lab, not a deployed autonomous swarm",
+  "genuine_incident_arrival": "three random report positions after step 1; sequential immediate checking",
+  "max_live_calls": {
+    "development": 400,
+    "main": 6000
+  },
+  "max_projected_credits": {
+    "development": 3,
+    "main": 40
+  },
+  "retries": 0,
+  "concurrency": 1,
+  "min_call_interval_seconds": 3,
+  "campaign_output_tokens": 8192,
+  "verifier_output_tokens": 4096,
+  "published_rates_credits_per_million": {
+    "qwen3.8-27b": [
+      0.039,
+      1.25
+    ],
+    "deepseek-v4-flash": [
+      0.04444,
+      0.13332
+    ]
+  },
+  "rate_source": "https://docs.adaptionlabs.ai/inference-stacks/models/",
+  "baseline_commit": "0568d47da7dc6ab75cc3fa4041bb228f074d91c1",
+  "adaptation_differences": [
+    "objective typed lab",
+    "sequential report arrivals",
+    "finite shared budget",
+    "identity resets",
+    "per-report rather than source's per-round updates"
+  ],
+  "source_sha256": {
+    "src/reset_button.py": "f249bc6a0499d9845f2513ab00ad384daa3516dcde6f6d006394ad20f3c599cb",
+    "scripts/run_reset_study.py": "1e8fa44a34fb09ffffe6c00707d0de8c40e75b9cd8dd6bb62ca6ce87bf41e4bb",
+    "tests/test_reset_button.py": "598e7a6b7c01042914ec474da49035619efc3629147f199d1a67eee83b6365c3"
+  }
+}
