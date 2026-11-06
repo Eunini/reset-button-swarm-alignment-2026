@@ -23,6 +23,7 @@ def main():
         'main_pages_4_to_8': 4 <= main_pages <= 8,
         'abstract_150_to_250_words': 150 <= metadata['abstract_words'] <= 250,
         'correct_author': 'Inioluwa Atanda' in text,
+        'correct_metadata_author': doc.metadata.get('author') == 'Inioluwa Atanda',
         'required_appendix': 'Limitations and Dual-Use / Ethical Considerations' in text,
         'ai_use_disclosed': 'LLM Usage Statement' in text,
         'prior_work_disclosed': '4,258-request identity-reset study' in text and 'preexisting preparation' in text,

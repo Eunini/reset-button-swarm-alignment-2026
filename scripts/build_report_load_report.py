@@ -23,6 +23,9 @@ def build():
     followup=a.get('interactive_followup')
     def pval(policy,mistake):return next(r for r in a['primary'] if r['policy']==policy and r['initial_mistake']==mistake)['detected']
     doc=Document(ROOT/'sources/official-template.docx');front=doc.tables[0]
+    doc.core_properties.author='Inioluwa Atanda'
+    doc.core_properties.title='Reset Button: Reporting Limits, Honest Bursts and Inherited Distrust'
+    doc.core_properties.subject='Swarm Alignment Hackathon 2026 research report'
     for child in list(doc._element.body):
         if child is not front._element and child.tag!=qn('w:sectPr'):doc._element.body.remove(child)
     for cell in (front.cell(0,0),front.cell(1,0)):cell._tc.clear_content();cell.add_paragraph()

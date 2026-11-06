@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-06T22:45:23.069148+00:00",
-  "scope": "Authorship, AI-assistance and review notes in project source and documentation. AI-topic words and raw model outputs are excluded. Prior versions remain unchanged.",
+  "created_utc": "2026-11-06T22:50:54.265603+00:00",
+  "scope": "Authorship, AI-assistance and review notes in source and documentation; excludes topic mentions and raw model outputs.",
   "matches": [
     {
       "file": "README.md",
@@ -48,13 +48,18 @@
       "text": "- All 41 implementation checks pass. Frozen scientific sources match the recorded plan; independent executor/control/full-replay audit passes. Final PDF structural checks pass. No independent human review is claimed."
     },
     {
+      "file": "docs/work-log.md",
+      "line": 144,
+      "text": "- The public package excludes credentials, private registration fields, browser state and copies of third-party webpages/papers. It retains the baseline MIT notices, preexisting-work provenance, failed tests and truthful AI-use disclosure. Inioluwa Atanda remains the sole human author and entrant."
+    },
+    {
       "file": "scripts/build_preparation_brief.py",
       "line": 103,
       "text": "para(\"AI assistance: The assistant prepared the code, literature triage, exploratory analysis and this brief. No independent human review is claimed. The human entrant must review the eventual submission and remains responsible for its accuracy.\", \"BriefNote\")"
     },
     {
       "file": "scripts/build_report_load_report.py",
-      "line": 151,
+      "line": 154,
       "text": "para('The coding assistant proposed the extension, wrote its implementation, inspected prior research, analyzed saved data and drafted this report. Adaption-hosted models judge synthetic records and control the explicitly prompted adversarial reporter. Programmatic tests check labels, budgets and paired conditions. No independent human review is claimed. Inioluwa Atanda is the solo human entrant and remains responsible for understanding and verifying the report and any submission.')"
     },
     {
@@ -84,16 +89,16 @@
     },
     {
       "file": "scripts/check_report_load_report.py",
-      "line": 31,
+      "line": 32,
       "text": "'no_human_review_claim': 'No independent human review is claimed' in text,"
     },
     {
       "file": "scripts/check_report_load_report.py",
-      "line": 42,
+      "line": 43,
       "text": "'assistant_visual_review': 'All seven rendered pages inspected; readable figures and tables, no clipping.',"
     }
   ],
   "sole_human_author": "Inioluwa Atanda",
   "ai_coauthor_tags_added": false,
-  "required_provenance_and_third_party_credits_retained": true
+  "third_party_credits_retained": true
 }

@@ -1,6 +1,6 @@
 AUTHORSHIP AND AI-ASSISTANCE NOTES
 
-Inioluwa Atanda is the sole human author and entrant. AI is not listed as a teammate or coauthor. These notes record assistance and review; they do not claim that third-party work belongs to the entrant.
+Inioluwa Atanda is the sole human author and entrant. These notes disclose assistance and review, not AI co-authorship. Historical records and third-party credits are retained.
 
 README.md:63
 Inioluwa Atanda is the sole human author and entrant. AI assistance was used for study design, implementation, literature review, analysis and report drafting. Adaption-hosted models supplied the recorded verifier judgments and prompted reporter outputs. Programmatic checks and assistant review were performed; no independent human review is claimed. The entrant remains responsible for understanding and verifying the submission.
@@ -29,10 +29,13 @@ docs/work-log.md:92
 docs/work-log.md:132
 - All 41 implementation checks pass. Frozen scientific sources match the recorded plan; independent executor/control/full-replay audit passes. Final PDF structural checks pass. No independent human review is claimed.
 
+docs/work-log.md:144
+- The public package excludes credentials, private registration fields, browser state and copies of third-party webpages/papers. It retains the baseline MIT notices, preexisting-work provenance, failed tests and truthful AI-use disclosure. Inioluwa Atanda remains the sole human author and entrant.
+
 scripts/build_preparation_brief.py:103
 para("AI assistance: The assistant prepared the code, literature triage, exploratory analysis and this brief. No independent human review is claimed. The human entrant must review the eventual submission and remains responsible for its accuracy.", "BriefNote")
 
-scripts/build_report_load_report.py:151
+scripts/build_report_load_report.py:154
 para('The coding assistant proposed the extension, wrote its implementation, inspected prior research, analyzed saved data and drafted this report. Adaption-hosted models judge synthetic records and control the explicitly prompted adversarial reporter. Programmatic tests check labels, budgets and paired conditions. No independent human review is claimed. Inioluwa Atanda is the solo human entrant and remains responsible for understanding and verifying the report and any submission.')
 
 scripts/build_reset_report.py:349
@@ -50,10 +53,10 @@ text('AI assistance was used for design, code, analysis and writing. Inioluwa At
 scripts/build_submission_extras.py:158
 The contribution is a reproducible test of honest reporting load and inherited distrust. The code, frozen plans, raw evidence and failed attempts are retained. The public reputation rule and its code are credited, and all work before the event opening is disclosed as preparation. AI assistance was used for design, implementation, analysis and writing. Inioluwa Atanda is the sole human entrant; no independent human review is claimed. The main lesson is to measure useful warnings and recovery after mistakes, as well as false-report demand.
 
-scripts/check_report_load_report.py:31
+scripts/check_report_load_report.py:32
 'no_human_review_claim': 'No independent human review is claimed' in text,
 
-scripts/check_report_load_report.py:42
+scripts/check_report_load_report.py:43
 'assistant_visual_review': 'All seven rendered pages inspected; readable figures and tables, no clipping.',
 
-The final PDF has the same LLM Usage Statement as scripts/build_report_load_report.py. The slide deck and recording script have a shorter disclosure with the same meaning. Original third-party copyright and licence notices are retained separately.
+The final PDF uses the LLM Usage Statement from scripts/build_report_load_report.py. The slide deck and walkthrough script include a shorter disclosure. No AI co-author trailer or teammate was added.

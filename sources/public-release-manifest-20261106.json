@@ -399,7 +399,7 @@
     "docs/history/before-sprint-final-README.md": "72196b98cf1d9f2e6b2347e11f8ab63d578d32f4ef0088944ca392a78252e35a",
     "scripts/finish_report_load.py": "73ca0e89333f99a70813a1e94d49ad3e9c69c70d1bb18e705d4f5a7936c70175",
     "scripts/build_preparation_brief.py": "9d3f620a5699a6dc330799bd2e495fe42e9222f31e2a0a2a6a4e684dac7bcabe",
-    "scripts/build_report_load_report.py": "9d4c1ed8d54c0ee254c52e7c017cbdd1f760d861b84f51ff9fc1b500bc0e1df6",
+    "scripts/build_report_load_report.py": "60c05f3135aee03131fbcdad75e145af73e9c725abb756a0639dbc63348c6849",
     "scripts/build_reset_report.py": "f0d3b5c61b95c31deb6aeb8dccc996ef7a7d9c9598bf959d5e07e31c1e8165ef",
     "scripts/build_submission_extras.py": "8aa5d1c952202ad954d1d6c22a95ac648890d8555b6367740b7fc51a1f5153e2",
     "scripts/run_model_pilot.py": "c15fe748efd3b5632fe3f266bc836aedb12cfc22083b2415244d904d066d9627",
@@ -416,7 +416,7 @@
     "scripts/run_interactive_followup.py": "3d8137c9ec78061348be4bca8dce7d067dcdd70e2e2e5511ebde07b2bd5482bd",
     "scripts/package_reset_preparation.py": "4210bb27bcb1a881cb715653e7c9f4c036dc0bcaac9f04a21f8e1bc40ac7071c",
     "scripts/run_interactive_stream_followup.py": "b792ebc413e485a9b1b569e435c4399f0740eb4b8757c50b5a2e4b7c4fcd9a21",
-    "scripts/check_report_load_report.py": "8e77454a77525cef62d92650c50cb425b961c922e6fe71d955fc5957383012d3",
+    "scripts/check_report_load_report.py": "5cd87992f9de0a9827c944bed25b4fdbfe3340c2cceb6eeeaab2057fef844ae0",
     "scripts/adaption_stream.py": "bcfd21dbd9aa476c1e9d1a942f2a847aea54d0727088401723fc4d7e75567a7f",
     "scripts/freeze_preexisting.py": "fd52c03ec58301fdb9251f465a3729a3a1a736d9fa39a862a792f8c433c1a487",
     "scripts/run_checks.py": "dd8983f387573e138981ad0045c4d001f0d73e955f34d907e4acf930a6a8902d",
@@ -426,16 +426,18 @@
     "scripts/check_adaption_connection.py": "bcc1a9d77bc2087a27923dfaf3ccb10dcc25d3f57fee5a1ef5057fa593b5bb9b",
     "scripts/run_report_load.py": "ed7f045db4ae902d67336bf54a189ab4dc741c412163636fd4a80f025ec0d310",
     "scripts/launch_reset_sprint.py": "4ebfac555f2f744a307cb234d9394b4231881c1685abec03f705939a9fd75c26",
-    "report/reset-button-sprint-report.docx": "29b8c42c09131e29385f46a6f8ac5403300e7b3ab62ab5118a98a5a1e619aaee",
-    "report/report-load-metadata.json": "3488cd10df89abdd3b7c7074856c4ce9b6b65ff34c93439517f3d3c529d95605",
-    "report/reset-button-sprint-report.pdf": "06c02ed033eb3e16bf658785b50bc441d4f09892e1a076ea41795ba77a86a659",
-    "report/report-load-checks.json": "16a514dc4eb37a8aa5dc697c5a87c37cc862424318427e3da5527765219c9d91",
+    "report/reset-button-sprint-report.docx": "eebcf2f1e93c3c028d2e797cb85062c2649bb0ae2839c1778e511a06af35242c",
+    "report/report-load-metadata.json": "31e2bdcb7ea13a00bb94fdd2c1e1385d4ad4d9db34cf250cb7dd2338a54e0593",
+    "report/reset-button-sprint-report.pdf": "da8cc52327a7fbef85dd5e67564686dcec051419a64c9acf5fb81c9b01f17f4b",
+    "report/report-load-checks.json": "3e00e3b32f28701432231e17645248f2984b010845d776fa1f11b9146ab6545d",
     "report/submission-extras/primary-comparison.png": "c90db91e279940ab6fbea05ddb9b1ded548671d3dfc76c2270f3018229248ae4",
-    "report/submission-extras/authorship-and-ai-notes.txt": "aa01365708427886470b13deefb9d6c2940acc440970eb92aedadc6d9434c74a",
+    "report/submission-extras/authorship-and-ai-notes.txt": "b1de321f1090f889cbcce9bd03e62ad263ddfbf7980b1b893205ee898fe2bfa0",
     "report/submission-extras/reset-button-project-image.png": "360aac23b1523c4f5e868fa62f879eea177bced8b1a12934b4f0d9b3619ba29f",
     "report/submission-extras/reset-button-slides.pdf": "84d17207c6b72982a8b4dd1064197e7e86e783a637abdf6949e5c27db07bd5d5",
     "report/submission-extras/extras-manifest.json": "2ec1de6aed24e61302854b3ae12a40aa9f9f05ef85f10367e0a7ac9b13678ece",
     "report/submission-extras/reset-button-walkthrough-script.txt": "b396dcf091f44cf85e6a839667ab60d8f488b092e6f648cd1f182db01efbcf72",
-    "report/submission-extras/attribution-inventory.json": "063d0efaa347692b727f0d231c67eac1954d4a625adfa5e739f09f0c43f925fd"
-  }
+    "report/submission-extras/attribution-inventory.json": "f8932da4bdd5d7a32206d217f4272c2d8b8ead4960e07269a7e584b2e445a553"
+  },
+  "updated_utc": "2026-11-06T22:50:54.273720+00:00",
+  "document_author_metadata": "Inioluwa Atanda"
 }

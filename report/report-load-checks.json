@@ -1,13 +1,14 @@
 {
-  "checked_utc": "2026-11-06T22:44:52.320779+00:00",
+  "checked_utc": "2026-11-06T22:50:53.789750+00:00",
   "pdf": "report/reset-button-sprint-report.pdf",
-  "sha256": "06c02ed033eb3e16bf658785b50bc441d4f09892e1a076ea41795ba77a86a659",
+  "sha256": "da8cc52327a7fbef85dd5e67564686dcec051419a64c9acf5fb81c9b01f17f4b",
   "checks": {
     "frozen_scientific_sources_unchanged": true,
     "independent_evidence_audit_passes": true,
     "main_pages_4_to_8": true,
     "abstract_150_to_250_words": true,
     "correct_author": true,
+    "correct_metadata_author": true,
     "required_appendix": true,
     "ai_use_disclosed": true,
     "prior_work_disclosed": true,
