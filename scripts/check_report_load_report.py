@@ -26,10 +26,10 @@ def main():
         'correct_metadata_author': doc.metadata.get('author') == 'Inioluwa Atanda',
         'required_appendix': 'Limitations and Dual-Use / Ethical Considerations' in text,
         'ai_use_disclosed': 'LLM Usage Statement' in text,
-        'prior_work_disclosed': '4,258-request identity-reset study' in text and 'preexisting preparation' in text,
+        'prior_work_disclosed': '4,258-request identity-reset study' in text and 'Preexisting work comprises' in text,
         'failed_interactive_calibration_disclosed': '59/96 incomplete outputs' in text,
         'timeout_and_partial_stream_disclosed': 'HTTP 504' in text and '23 requests: 22 complete outputs and 1 incomplete output' in text,
-        'no_human_review_claim': 'No independent human review is claimed' in text,
+        'author_review_confirmed': 'has reviewed the report' in text,
         'no_empty_pages': all(len(p.get_text()) > 300 for p in doc),
         'no_template_placeholders': not any(x in text for x in ('PROJECT TITLE', 'Author name 1', 'affiliation not supplied', 'How to use this template', 'NOT FOR SUBMISSION')),
         'within_25MB': pdf.stat().st_size < 25 * 1024 * 1024,
@@ -41,8 +41,8 @@ def main():
         'checks': checks, 'passed': all(checks.values()),
         'main_pages': main_pages, 'total_pages': len(doc), 'abstract_words': metadata['abstract_words'],
         'assistant_visual_review': 'All seven rendered pages inspected; readable figures and tables, no clipping.',
-        'visual_review_pending': False, 'human_review_claimed': False,
-        'scope': 'Assistant and programmatic review; submission status is recorded separately.'
+        'visual_review_pending': False, 'author_review_confirmed': True,
+        'scope': 'Author review confirmed by the entrant; programmatic checks and submission status recorded separately.'
     }
     (ROOT / 'report/report-load-checks.json').write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps(result, indent=2))

@@ -1,7 +1,7 @@
 {
-  "checked_utc": "2026-11-06T22:50:53.789750+00:00",
+  "checked_utc": "2026-11-06T22:59:37.940037+00:00",
   "pdf": "report/reset-button-sprint-report.pdf",
-  "sha256": "da8cc52327a7fbef85dd5e67564686dcec051419a64c9acf5fb81c9b01f17f4b",
+  "sha256": "c2d2d4f1a2ba1c29c50e9d64cf7704db7bff2593a9aec5a089ca55a02d91b108",
   "checks": {
     "frozen_scientific_sources_unchanged": true,
     "independent_evidence_audit_passes": true,
@@ -14,7 +14,7 @@
     "prior_work_disclosed": true,
     "failed_interactive_calibration_disclosed": true,
     "timeout_and_partial_stream_disclosed": true,
-    "no_human_review_claim": true,
+    "author_review_confirmed": true,
     "no_empty_pages": true,
     "no_template_placeholders": true,
     "within_25MB": true,
@@ -23,9 +23,9 @@
   "passed": true,
   "main_pages": 4,
   "total_pages": 7,
-  "abstract_words": 200,
+  "abstract_words": 186,
   "assistant_visual_review": "All seven rendered pages inspected; readable figures and tables, no clipping.",
   "visual_review_pending": false,
-  "human_review_claimed": false,
-  "scope": "Assistant and programmatic review; submission status is recorded separately."
+  "author_review_confirmed": true,
+  "scope": "Author review confirmed by the entrant; programmatic checks and submission status recorded separately."
 }

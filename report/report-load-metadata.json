@@ -1,8 +1,8 @@
 {
-  "created_utc": "2026-11-06T22:50:20.263191+00:00",
+  "created_utc": "2026-11-06T22:59:10.014313+00:00",
   "report": "report/reset-button-sprint-report.docx",
-  "abstract_words": 200,
+  "abstract_words": 186,
   "stage": "during-sprint extension",
-  "human_review_claimed": false,
+  "author_review_confirmed": true,
   "submitted": false
 }

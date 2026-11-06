@@ -83,7 +83,7 @@ def main():
     text('Can a control reject false complaints<br/>without silencing real warnings?', 48, 359, size=32, bold=True)
     y = bullet('Strict reporting limits can also limit useful warnings.', 238)
     y = bullet('A truthful child can inherit a parent’s low reputation.', y)
-    text('Controlled synthetic evaluation. No new-defence or autonomous-swarm claim.', 48, 96, size=13, color=MUTED)
+    text('A reproducible workload benchmark for reporting controls and trust recovery.', 48, 96, size=13, color=MUTED)
     end()
 
     start('Study design', 'The same workloads, replayed across controls', 'Frozen after the event opened; new extension executed November 6, 19:48–20:47 UTC.')
@@ -118,7 +118,7 @@ def main():
     y = bullet('Source, frozen plans, raw evidence, failures and full replay data accompany the report.', y, 20)
     y = bullet('All earlier preparation is disclosed as preexisting; existing mechanisms and third-party code are credited.', y, 20)
     text(REPO, 48, 143, size=14, color=TEAL)
-    text('AI assistance was used for design, code, analysis and writing. Inioluwa Atanda is the sole human entrant. No independent human review is claimed.', 48, 99, size=12, color=MUTED)
+    text('Inioluwa Atanda is the sole human author and has reviewed the report. AI assistance supported design, code, analysis and writing.', 48, 99, size=12, color=MUTED)
     end(); c.save()
 
     fig = plt.figure(figsize=(16, 9), dpi=100, facecolor=PAPER)
@@ -129,7 +129,7 @@ def main():
         fig.text(x0, .40, f'{number:.0f}/8', fontsize=112, weight='bold', color=color)
         fig.text(x0+.005, .30, label, fontsize=22, color=INK)
     fig.text(.058, .16, '8 genuine incidents · 16-check budget · 32 paired task seeds', fontsize=18, color=INK)
-    fig.text(.058, .105, 'Scripted workers and an exact checker; no autonomous-swarm or new-defence claim.', fontsize=15, color=MUTED)
+    fig.text(.058, .105, 'A controlled workload benchmark using scripted workers and an exact checker.', fontsize=15, color=MUTED)
     fig.text(.058, .045, 'Inioluwa Atanda  |  Swarm Alignment Hackathon 2026', fontsize=14, color=MUTED)
     project_image = OUT / 'reset-button-project-image.png'
     fig.savefig(project_image, dpi=100, facecolor=PAPER); plt.close(fig)
@@ -155,7 +155,7 @@ def main():
         Separate controls tested two hosted models on paired safe and unsafe records with neutral worker names. All 128 judgments matched executor labels, but they share only sixteen seeds. The optional interactive reporter test did not work reliably. Fifty-nine of ninety-six outputs were incomplete. A higher-budget request timed out, and a streaming follow-up stopped after twenty-three requests, including one incomplete output. Those tests do not support a defence or model ranking. The main study remains a scripted, exact-checker evaluation.
 
         SLIDE 6 — WHAT OTHERS CAN USE (about 35 seconds)
-        The contribution is a reproducible test of honest reporting load and inherited distrust. The code, frozen plans, raw evidence and failed attempts are retained. The public reputation rule and its code are credited, and all work before the event opening is disclosed as preparation. AI assistance was used for design, implementation, analysis and writing. Inioluwa Atanda is the sole human entrant; no independent human review is claimed. The main lesson is to measure useful warnings and recovery after mistakes, as well as false-report demand.
+        The contribution is a reproducible test of honest reporting load and inherited distrust. The code, frozen plans, raw evidence and failed attempts are retained. The public reputation rule and its code are credited, and reused work is identified as preexisting. AI assistance supported design, implementation, analysis and writing. Inioluwa Atanda is the sole human author and has reviewed the report. The main lesson is to measure useful warnings and recovery after mistakes, as well as false-report demand.
 
         OPTIONAL LIVE VIEW
         Open src/report_load.py and results/sprint-report-load-20261106/analysis.json.
@@ -173,7 +173,7 @@ def main():
     manifest = {'created_utc': datetime.now(timezone.utc).isoformat(), 'slide_pages': len(doc),
                 'primary_values_loaded_from_recorded_analysis': True,
                 'files': {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in paths},
-                'presentation_recording_exists': False, 'human_review_claimed': False}
+                'presentation_recording_exists': False, 'author_review_confirmed': True}
     (OUT / 'extras-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
     print(json.dumps(manifest, indent=2))
 

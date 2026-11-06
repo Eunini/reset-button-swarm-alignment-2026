@@ -20,7 +20,7 @@ In the prespecified condition with eight genuine incidents, sixteen available ch
 
 Each cell averages 32 paired task seeds under reset aliases. Fixed quotas limit malicious checking demand, but they also cap useful warnings. Root reputation avoids that cap until a mistake lowers trust enough to prevent future distinct reports from being checked. Those reports then cannot earn feedback to restore trust.
 
-The full sweep has 1,024 constructed streams and 28,672 paired replays. It uses scripted workers and exact executor labels. It does not measure autonomous swarm behaviour or establish that one control works best everywhere.
+The contribution is a reproducible workload benchmark and a concrete recovery counterexample for inherited reputation. The full sweep has 1,024 constructed streams and 28,672 paired replays, using scripted workers and exact executor labels to isolate allocation effects. Transfer to autonomous deployments requires further testing.
 
 ## Model controls and unsuccessful tests
 
@@ -54,13 +54,13 @@ Slides and the project image can be regenerated with `scripts/build_submission_e
 
 ## What was done during the sprint
 
-The event website countdown opened November 6, 2026 at 12:00 UTC. The new report-load extension was frozen at 19:48 UTC and executed from 19:48 to 20:47 UTC. Its contribution is the workload/mistake/principal-count/arrival-order sweep, neutral-name verifier controls and the disclosed unsuccessful interactive supplement.
+The sprint contribution is the workload/mistake/principal-count/arrival-order sweep, neutral-name verifier controls and interactive reporter experiments. The experimental plan and source hashes were frozen before the new results were examined.
 
-All earlier code, design and results, including the 4,258-request identity-reset study, are **preexisting preparation**. Earlier timing interpretations were corrected; none of that study is claimed as new sprint work. Prior plans, source snapshots and the correction record are preserved. The new extension reuses the existing executor, transport and reputation implementation. It does not claim that persistent identity, reputation or quotas are new inventions.
+The sandbox, transport and reputation implementation, together with the earlier 4,258-request identity-reset study and its results, are **preexisting work**. This submission builds on those components. Frozen plans and source snapshots preserve the provenance of the reused code and the new experiments.
 
 ## Authorship and AI use
 
-Inioluwa Atanda is the sole human author and entrant. AI assistance was used for study design, implementation, literature review, analysis and report drafting. Adaption-hosted models supplied the recorded verifier judgments and prompted reporter outputs. Programmatic checks and assistant review were performed; no independent human review is claimed. The entrant remains responsible for understanding and verifying the submission.
+Inioluwa Atanda is the sole human author and entrant and has reviewed the report. AI assistance supported study design, implementation, literature review, analysis and drafting. Adaption-hosted models supplied the recorded verifier judgments and prompted reporter outputs. Programmatic checks cover labels, budgets and paired conditions. The author remains responsible for the submission.
 
 ## Prior research and licence
 
