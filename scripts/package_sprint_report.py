@@ -32,7 +32,8 @@ def main():
         'report/reset-button-sprint-report.*', 'report/report-load-metadata.json',
         'report/report-load-checks.json',
         'report/submission-extras/*.pdf', 'report/submission-extras/reset-button-project-image.png',
-        'report/submission-extras/*.txt', 'report/submission-extras/*.json',
+        'report/submission-extras/reset-button-walkthrough-script.txt',
+        'report/submission-extras/extras-manifest.json',
     ):
         files.update(p for p in ROOT.glob(pattern) if p.is_file() and not any(x in p.parts for x in ('.git', '__pycache__', '.private', '.venv')))
     manifest_path = ROOT / 'sources/sprint-report-load-package-manifest-20261106.json'

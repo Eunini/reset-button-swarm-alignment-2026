@@ -411,7 +411,7 @@
     "scripts/start_report_load.py": "f055c5cf31ae5e6a27f1d80b22ea6fad32667e01772951372829ecc4793fbe88",
     "scripts/start_reset_background.py": "a722b52e840e63d787537b2d9abe766691f69279a455c035dd36782e71f0e432",
     "scripts/check_reset_report.py": "2ba43df3b3b015dbf376db83270314f657572e0858ae879ac82e92adb71755e3",
-    "scripts/package_sprint_report.py": "c93031efe36f51c6f47b529e08dfcbd9f9758a2f05107605d07b30f2cbe50e11",
+    "scripts/package_sprint_report.py": "d41bb777809d92c64010532119d8c708be594b716883666da7d4423658c66420",
     "scripts/fetch_official_template.py": "880558c3e9275105c337149e2554df213cda540f72d41784411b1940fe53aea5",
     "scripts/run_interactive_followup.py": "3d8137c9ec78061348be4bca8dce7d067dcdd70e2e2e5511ebde07b2bd5482bd",
     "scripts/package_reset_preparation.py": "4210bb27bcb1a881cb715653e7c9f4c036dc0bcaac9f04a21f8e1bc40ac7071c",
@@ -431,13 +431,11 @@
     "report/reset-button-sprint-report.pdf": "da8cc52327a7fbef85dd5e67564686dcec051419a64c9acf5fb81c9b01f17f4b",
     "report/report-load-checks.json": "3e00e3b32f28701432231e17645248f2984b010845d776fa1f11b9146ab6545d",
     "report/submission-extras/primary-comparison.png": "c90db91e279940ab6fbea05ddb9b1ded548671d3dfc76c2270f3018229248ae4",
-    "report/submission-extras/authorship-and-ai-notes.txt": "b1de321f1090f889cbcce9bd03e62ad263ddfbf7980b1b893205ee898fe2bfa0",
     "report/submission-extras/reset-button-project-image.png": "360aac23b1523c4f5e868fa62f879eea177bced8b1a12934b4f0d9b3619ba29f",
     "report/submission-extras/reset-button-slides.pdf": "84d17207c6b72982a8b4dd1064197e7e86e783a637abdf6949e5c27db07bd5d5",
     "report/submission-extras/extras-manifest.json": "2ec1de6aed24e61302854b3ae12a40aa9f9f05ef85f10367e0a7ac9b13678ece",
-    "report/submission-extras/reset-button-walkthrough-script.txt": "b396dcf091f44cf85e6a839667ab60d8f488b092e6f648cd1f182db01efbcf72",
-    "report/submission-extras/attribution-inventory.json": "f8932da4bdd5d7a32206d217f4272c2d8b8ead4960e07269a7e584b2e445a553"
+    "report/submission-extras/reset-button-walkthrough-script.txt": "b396dcf091f44cf85e6a839667ab60d8f488b092e6f648cd1f182db01efbcf72"
   },
-  "updated_utc": "2026-11-06T22:50:54.273720+00:00",
+  "updated_utc": "2026-11-06T22:54:57.769807+00:00",
   "document_author_metadata": "Inioluwa Atanda"
 }
