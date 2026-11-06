@@ -406,10 +406,13 @@
     "report/submission-extras/reset-button-project-image.png": "793eefb0a28bb556eaec964e308c97b0b9fb8dfad1e89f0eef028ee0427a3b32",
     "report/submission-extras/reset-button-slides.pdf": "cd2512d8f9dbc0ee7b0a2a16de9d3d82e78893f4a16a770acd14645cadc30bd3",
     "report/submission-extras/extras-manifest.json": "411cfd1730372d9a8bbde8ff3c33308d85b01f3571c453eb23ba9a8e8fea65dc",
-    "report/submission-extras/reset-button-walkthrough-script.txt": "7f760802c829b5f9b1a4b20cf3bf5b68f56f074cf8dcf2b4e4a00afcd2f48702"
+    "report/submission-extras/reset-button-walkthrough-script.txt": "7f760802c829b5f9b1a4b20cf3bf5b68f56f074cf8dcf2b4e4a00afcd2f48702",
+    "scripts/build_public_report.py": "90504ebc3bee77014af74ab78eecbf8c5af6ebb0b9b28257ab337cdc710e59fd",
+    "report/reset-button-research-note.pdf": "02eccf0720aacb08f0f31420fe62e064468725fc5a79c8ff97eb2dd5afd1e00e"
   },
-  "updated_utc": "2026-11-06T23:01:01.293931+00:00",
+  "updated_utc": "2026-11-06T23:21:53.515782+00:00",
   "document_author_metadata": "Inioluwa Atanda",
   "author_review_confirmed": true,
-  "distribution_scope": "Current report, reproduction code, scientific provenance and results; internal operational notes and superseded report tools are kept separately."
+  "distribution_scope": "Current report, reproduction code, scientific provenance and results; internal operational notes and superseded report tools are kept separately.",
+  "public_research_note": "report/reset-button-research-note.pdf"
 }
